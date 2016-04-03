@@ -35,6 +35,9 @@
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-babel": "^3.1.0"
   },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "del dist && babel src --out-dir dist --source-maps",
