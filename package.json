@@ -1,7 +1,7 @@
 {
   "name": "test-exhibit-plugin",
   "description": "Asserts Exhibit plugin fixtures",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "babel": {
     "presets": [
       "es2015",
