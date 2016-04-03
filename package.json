@@ -1,6 +1,6 @@
 {
   "name": "test-exhibit-plugin",
-  "description": "CLI tool for testing Exhibit plugins",
+  "description": "Asserts Exhibit plugin fixtures",
   "version": "0.0.0",
   "babel": {
     "presets": [
@@ -39,6 +39,7 @@
     "dist"
   ],
   "license": "MIT",
+  "repository": "exhibitjs/test-exhibit-plugin",
   "scripts": {
     "build": "del dist && babel src --out-dir dist --source-maps",
     "build:watch": "del dist && babel src --out-dir dist --watch --source-maps",

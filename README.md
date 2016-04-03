@@ -29,6 +29,10 @@ Optionally followed by:
 - `foo-2-out`
 - etc. for as a many extra steps as you need.
 
+## --fix
+
+You can use the `--fix` flag to overwrite the `*-out` folders with the actual result.
+
 ### Note on numbering
 
 For many cases you probably only need one step, but numbers are still required for consistency.
