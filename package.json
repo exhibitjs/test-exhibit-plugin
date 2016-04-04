@@ -37,10 +37,10 @@
   "files": [
     "dist"
   ],
+  "license": "MIT",
   "peerDependencies": {
     "exhibit": "^0.8.3"
   },
-  "license": "MIT",
   "repository": "exhibitjs/test-exhibit-plugin",
   "scripts": {
     "build": "del dist && babel src --out-dir dist --source-maps",
