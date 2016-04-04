@@ -48,7 +48,7 @@ async function go() {
 			const [, suiteName] = configResult;
 
 			const numbers = list.map(n => {
-				if (n.startsWith(`${suiteName}-`) && n.endsWith('-in')) {
+				if (n.substring(0, suiteName.length + 1) === `${suiteName}-` && /-in$/.test(n)) {
 					return n.substring(suiteName.length + 1).split('-')[0];
 				}
 				return null;
